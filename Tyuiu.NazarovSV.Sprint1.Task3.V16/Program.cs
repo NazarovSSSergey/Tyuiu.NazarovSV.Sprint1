@@ -11,9 +11,9 @@ namespace Tyuiu.NazarovSV.Sprint1.Task3.V16
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ                                                        *");
             Console.WriteLine("**************************************************************************");
 
-            double x1 = Math.Round((Convert.ToDouble(Console.ReadLine())), 3);
+            double x1 = (Convert.ToDouble(Console.ReadLine()));
 
-            double x2 = Math.Round(Convert.ToDouble(Console.ReadLine()), 3);
+            double x2 = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                             *");

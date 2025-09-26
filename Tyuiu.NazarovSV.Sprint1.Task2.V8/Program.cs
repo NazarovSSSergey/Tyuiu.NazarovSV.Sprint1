@@ -11,21 +11,21 @@ namespace Tyuiu.NazarovSV.Sprint1.Task2.V8
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                       *");
             Console.WriteLine("**************************************************************************");
 
-            int a;
+            int x1;
 
             Console.WriteLine("Ведите значение a:");
-            a = Convert.ToInt32(Console.ReadLine());
+            x1 = Convert.ToInt32(Console.ReadLine());
 
-            int b;
+            int x2;
 
             Console.WriteLine("Ведите значение b:");
-            b = Convert.ToInt32(Console.ReadLine());
+            x2 = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ                                                              *");
             Console.WriteLine("**************************************************************************");
 
-            Console.WriteLine($"Периметр треугольника со сторонами {a} и {b} равен: " + ds.CalculatePerimetr(a, b));
+            Console.WriteLine($"Периметр треугольника со сторонами {x1} и {x2} равен: " + ds.CalculatePerimetr(x1, x2));
 
             Console.ReadLine();
         }

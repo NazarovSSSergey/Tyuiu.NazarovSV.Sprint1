@@ -7,9 +7,28 @@ namespace Tyuiu.NazarovSV.Sprint1.Task6.V15.Lib
     {
         public bool CheckLettersCount(string value)
         {
-            int countL = 0;
-            int countS = 0;
-
+            string k = value;
+            int countLetter = 0;
+            int CO = 0;
+            for (int i = 0; i < k.Length; i++)
+            {
+                if (char.IsLetter(k[i]))
+                {
+                    countLetter++;
+                }
+                else
+                {
+                    CO++;
+                }
+            }
+            if (countLetter > CO)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }        
     }
 }

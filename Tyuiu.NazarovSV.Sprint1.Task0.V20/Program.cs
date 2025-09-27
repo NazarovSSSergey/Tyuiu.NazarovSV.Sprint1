@@ -6,20 +6,15 @@ namespace Tyuiu.NazarovSV.Sprint1.Task0.V20
     {
         static void Main(string[] args)
         {
+            int a = 0, b = 0;
 
-            int a = 7;
+            a = Convert.ToInt32(Console.ReadLine());
 
-            int b = a % 3 + 1;
+            b = Convert.ToInt32(Console.ReadLine());
 
-            a++;
+            int d = 2 * a - b;
 
-            b *= a - 5;
-
-            int x = a - b;
-
-
-
-            Console.WriteLine(x);
+            Console.WriteLine("{0}", a);
         }
     }
 }

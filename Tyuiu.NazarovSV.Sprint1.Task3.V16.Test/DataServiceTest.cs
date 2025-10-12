@@ -8,8 +8,8 @@ namespace Tyuiu.NazarovSV.Sprint1.Task3.V16.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            var res = ds.CoeffOfQuadraticEquation();
-            Assert.AreEqual(2, res);
+            var res = ds.CoeffOfQuadraticEquation(3.1, 3.1);
+            Assert.AreEqual(-6.2, res);
         }
     }
 }

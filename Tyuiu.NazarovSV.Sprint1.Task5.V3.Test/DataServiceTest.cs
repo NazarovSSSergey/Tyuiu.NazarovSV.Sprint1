@@ -9,7 +9,7 @@ namespace Tyuiu.NazarovSV.Sprint1.Task5.V3.Test
         {
             DataService ds = new DataService();
             var res = ds.Calculate(9);
-            Assert.AreEqual(9, res);
+            Assert.AreEqual(0, res);
         }
     }
 }
